@@ -1,0 +1,9 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": ["./core", "./main", "./team-a", "./team-b"]
+    },
+    "scripts": {
+        "start": "yarn workspace main start"
+    }
+}
