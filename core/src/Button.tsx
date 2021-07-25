@@ -1,8 +1,9 @@
 
 
 export function Button() {
+  const onClick = () => {}
   return (
-    <button> Click me 12 </button>
+    <button onClick={onClick}> Click me 123 </button>
   );
 }
 
