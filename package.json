@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "lerna run start --scope={main,core} --stream --concurrently",
-        "test": "lerna run test"
+        "test": "lerna run test --since master"
     },
     "devDependencies": {
         "lerna": "^4.0.0"
