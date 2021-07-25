@@ -6,6 +6,6 @@
         "./team-b"
     ],
     "npmClient": "yarn",
-    "version": "0.1.3",
+    "version": "0.1.4",
     "useWorkspaces": true
 }
