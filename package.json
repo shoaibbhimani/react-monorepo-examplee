@@ -9,7 +9,8 @@
         ]
     },
     "scripts": {
-        "start": "yarn workspace main start"
+        "start": "lerna run start --scope={main,core} --stream --concurrently",
+        "test": "lerna run test"
     },
     "devDependencies": {
         "lerna": "^4.0.0"
