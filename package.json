@@ -1,10 +1,18 @@
 {
     "private": true,
     "workspaces": {
-        "packages": ["./core", "./main", "./team-a", "./team-b"]
+        "packages": [
+            "./core",
+            "./main",
+            "./team-a",
+            "./team-b"
+        ]
     },
     "scripts": {
-        "start": "yarn workspace main start",
-        "test": "yarn workspaces run test"
+        "start": "lerna run --scope=main start --stream",
+        "test": "lerna run test"
+    },
+    "devDependencies": {
+        "lerna": "^4.0.0"
     }
 }
