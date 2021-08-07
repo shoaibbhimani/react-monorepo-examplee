@@ -4,6 +4,7 @@
         "packages": ["./core", "./main", "./team-a", "./team-b"]
     },
     "scripts": {
-        "start": "yarn workspace main start"
+        "start": "yarn workspace main start",
+        "test": "yarn workspaces run test"
     }
 }
