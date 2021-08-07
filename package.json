@@ -10,7 +10,7 @@
     },
     "scripts": {
         "start": "lerna run --scope=main start --stream",
-        "test": "lerna run test"
+        "test": "lerna run test --since HEAD~1"
     },
     "devDependencies": {
         "lerna": "^4.0.0"

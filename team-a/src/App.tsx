@@ -7,7 +7,7 @@ import { Button } from "core"
 export function App() {
   return (
     <div className="App">
-      Hello from Team A 123456789
+      Hello from Team A
       <Button />
     </div>
   );
