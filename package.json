@@ -9,8 +9,8 @@
         ]
     },
     "scripts": {
-        "start": "lerna run --scope=main start --stream",
-        "test": "lerna run test --since HEAD~1"
+        "start": "lerna run --scope={main,team-a} start --stream",
+        "test": "lerna run test --concurrency 9"
     },
     "devDependencies": {
         "lerna": "^4.0.0"
