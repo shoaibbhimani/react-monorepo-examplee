@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/shoaibbhimani/react-monorepo-examplee/compare/main@3.0.0...main@3.0.1) (2021-08-08)
+
+
+### Bug Fixes
+
+* correct minor typos in code ([d2332e4](https://github.com/shoaibbhimani/react-monorepo-examplee/commit/d2332e4256f3c43615ad079cbb5ef597224cb888)), closes [#133](https://github.com/shoaibbhimani/react-monorepo-examplee/issues/133)
+
+
+
+
+
 # 3.0.0 (2021-08-08)
 
 
