@@ -15,9 +15,9 @@
     "react-scripts": "4.0.3",
     "typescript": "^4.1.2",
     "web-vitals": "^1.0.1",
-    "team-a": "*",
-    "team-b": "*",
-    "core": "*"
+    "team-a": "1.0.0",
+    "team-b": "1.0.0",
+    "core": "1.0.0"
   },
   "devDependencies": {
     "react-app-rewired": "2.1.8",
